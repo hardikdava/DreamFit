@@ -6,6 +6,7 @@ build:
 
   run:
     - curl -o /usr/local/bin/pget -L "https://github.com/replicate/pget/releases/latest/download/pget_$(uname -s)_$(uname -m)" && chmod +x /usr/local/bin/pget
+    - pip install flash-attn --no-build-isolation --use-pep517
 
 image: "r8.im/graswald/flux-dreamfit"
 predict: "predictor.py:CogFluxDreamFitPredictor"
