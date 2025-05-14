@@ -24,3 +24,9 @@ scipy==1.15.2
 safetensors==0.5.3
 huggingface_hub==0.25
 numpy==2.2.4
+cog
+git+https://github.com/huggingface/peft.git
+pillow
+requests
+supervision
+python-dotenv
